@@ -1,4 +1,4 @@
-# 🧪 Prova Técnica – Desenvolvedor Pleno (Java)
+# 🧪 Prova Técnica – Desenvolvedor Java
 
 
 ## 🎯 Objetivo
