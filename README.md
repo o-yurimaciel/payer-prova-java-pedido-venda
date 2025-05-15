@@ -17,11 +17,19 @@ Desenvolver uma API REST para gerenciamento de **pedidos de venda**.
   - Cliente
   - Lista de itens (produto, quantidade, preço unitário)
   - Data do pedido
+- A criação do pedido pode ser feita de forma assíncrona, utilizando uma fila para processar os pedidos (diferencial)
 - Buscar pedido por ID
-- Listar todos os pedidos
 - Atualizar status do pedido (`PENDENTE`, `PAGO`, `CANCELADO`)
+- Listar todos os pedidos (adicione filtro por status do pedido)
 - Cancelar pedido
-- Calcular e retornar o valor total do pedido
+- Implementar auditoria simples (guardar data e usuário fictício que fez a última alteração no pedido)
+- Listar vendas por cliente e calcular o total da soma de todos os pedidos do cliente com status (PAGO)
+- Gerar relatório simples contendo:
+  - Total de pedidos no sistema
+  
+  - Total de pedidos por status (PENDENTE, PAGO, CANCELADO)
+  
+  - Receita total acumulada dos pedidos PAGO
 
 ---
 
@@ -31,7 +39,7 @@ Você deve utilizar obrigatoriamente:
 
 - Java 17 **ou** Java 21  
 - Spring Boot (qualquer versão compatível com Java 17 ou 21)  
-- Persistência com JPA + banco de dados H2 ou Mongo DB(diferencial) 
+- Persistência com JPA + banco de dados H2 ou Mongo DB
 - Validações com Bean Validation  
 - Mapeamento adequado entre entidades (Cliente, Pedido, ItemPedido, Produto)  
 - Testes unitários (JUnit + Mockito)  
