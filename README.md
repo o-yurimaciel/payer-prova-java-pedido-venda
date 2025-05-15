@@ -59,7 +59,7 @@ Você deve entregar:
 - A prova é individual  
 - O uso de frameworks e bibliotecas auxiliares é permitido, mas evite gerar código automático (ex: via ChatGPT)  
 - A entrega deve ser feita no prazo combinado  
-- Qualquer dúvida durante a execução, envie por e-mail  
+- Qualquer dúvida durante a execução, entre em contato com os avaliadores.
 
 ---
 
