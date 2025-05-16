@@ -52,7 +52,7 @@ Você deve utilizar obrigatoriamente:
 
 Você deve entregar:
 
-1. Repositório público no GitHub chamado `prova-java-pleno`  
+1. Repositório público no GitHub chamado `prova-java-pedido-venda`  
 2. Um `README.md` com:
    - Descrição do projeto  
    - Como rodar a aplicação (com `mvn` ou `gradle`)  
